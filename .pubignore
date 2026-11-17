@@ -1,0 +1,30 @@
+# Repository-only agent instructions.
+AGENTS.md
+
+# Ignore repositories and IDE metadata.
+.git/
+.idea/
+*.iml
+.vscode/
+
+# Flutter/Dart generated state.
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins-dependencies
+**/.flutter-plugins-dependencies
+/doc/api/
+**/doc/api/
+.pub-cache/
+.pub/
+/pubspec.lock
+
+# Build output.
+build/
+**/build/
+coverage/
+**/coverage/
+.fvm/
+
+# Generated platform scaffolding.
+**/ephemeral/
+*.log
